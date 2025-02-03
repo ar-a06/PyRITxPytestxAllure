@@ -1,0 +1,11 @@
+llm:
+  provider: "openai"  #options: openai, azure, crudible, ollama, etc.
+  api_key: "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"
+  model: "gpt-4o-mini"  #configurable model name
+  endpoint: "https://api.openai.com/v1/chat/completions"
+
+pyrit:
+  red_teaming_orchestrator: "default"
+  prompt_libraries: ["bias_fairness", "safety_harmful", "robustness"]
+  scoring_system: "true_false"  #options: true_false, likert etc.
+  report_format: "allure"   #options: allure, csv, json

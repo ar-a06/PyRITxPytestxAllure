@@ -1,0 +1,122 @@
+[1m[31mERROR   [0m asyncio:base_events.py:1826 Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<AsyncClient.aclose() done, defined at C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py:2024> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py", line 2031, in aclose
+    await self._transport.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_transports\default.py", line 389, in aclose
+    await self._pool.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\streams\tls.py", line 201, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1306, in aclose
+    self._transport.close()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 794, in call_soon
+    self._check_closed()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 540, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[1m[31mERROR   [0m asyncio:base_events.py:1826 Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<AsyncClient.aclose() done, defined at C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py:2024> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py", line 2031, in aclose
+    await self._transport.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_transports\default.py", line 389, in aclose
+    await self._pool.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\streams\tls.py", line 201, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1306, in aclose
+    self._transport.close()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 794, in call_soon
+    self._check_closed()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 540, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[1m[31mERROR   [0m asyncio:base_events.py:1826 Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<AsyncClient.aclose() done, defined at C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py:2024> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py", line 2031, in aclose
+    await self._transport.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_transports\default.py", line 389, in aclose
+    await self._pool.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\streams\tls.py", line 201, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1306, in aclose
+    self._transport.close()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 794, in call_soon
+    self._check_closed()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 540, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[1m[31mERROR   [0m asyncio:base_events.py:1826 Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<AsyncClient.aclose() done, defined at C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py:2024> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_client.py", line 2031, in aclose
+    await self._transport.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpx\_transports\default.py", line 389, in aclose
+    await self._pool.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\streams\tls.py", line 201, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\aramani\PycharmProjects\PyRITxAllurexApplause\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1306, in aclose
+    self._transport.close()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 794, in call_soon
+    self._check_closed()
+  File "C:\Users\aramani\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 540, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 1 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92079, Requested 8172. Please try again in 1h48m25.92s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 2.2959999999729916 seconds. Total calls: 1
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 2 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 29.18699999997625 seconds. Total calls: 2
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 3 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 55.93699999997625 seconds. Total calls: 3
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 4 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92076, Requested 8172. Please try again in 1h47m8.16s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 82.34299999999348 seconds. Total calls: 4
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 5 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 111.79599999997299 seconds. Total calls: 5
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 6 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92073, Requested 8172. Please try again in 1h45m50.4s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 145.06199999997625 seconds. Total calls: 6
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 7 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92072, Requested 8172. Please try again in 1h45m24.48s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 180.68699999997625 seconds. Total calls: 7
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 8 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92070, Requested 8172. Please try again in 1h44m32.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 226.48399999999674 seconds. Total calls: 8
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 9 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on tokens per min (TPM): Limit 100000, Used 92068, Requested 8172. Please try again in 1h43m40.799s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 284.295999999973 seconds. Total calls: 9
+[1m[31mERROR   [0m pyrit.exceptions.exceptions_helpers:exceptions_helpers.py:21 Retry attempt 10 for _complete_chat_async failed with exception: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-b3VPqI3avWEHvKJXXHqps9cf on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}. Elapsed time: 316.64000000001397 seconds. Total calls: 10
